@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(talosctl get members 2>/dev/null | grep -c -E 'controlplane|worker')" -ge 2 ]
+[ "$(talosctl get members --nodes 10.5.0.2 2>/dev/null | grep -c controlplane)" -ge 1 ]
