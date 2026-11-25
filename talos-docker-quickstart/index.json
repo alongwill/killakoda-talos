@@ -1,0 +1,13 @@
+{
+  "title": "Talos Linux in Docker: first talosctl commands",
+  "description": "Spin up a local Talos cluster with Docker and inspect it with talosctl get members",
+  "details": {
+    "intro": { "text": "intro/text.md", "background": "intro/background.sh", "foreground": "intro/foreground.sh" },
+    "steps": [
+      { "title": "Create the cluster", "text": "step1/text.md", "verify": "step1/verify.sh" },
+      { "title": "Inspect cluster members", "text": "step2/text.md", "verify": "step2/verify.sh" }
+    ],
+    "finish": { "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
